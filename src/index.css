@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-1 {
+  flex: 1;
+}
+.c-pointer {
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.child-item {
+    display: flex;
+    gap: 12px;
+    margin-left: 50px;
+}
+
+.child-item .Polaris-ShadowBevel {
+    flex: 1;
+}
+
+#custom-draggable {
+    cursor: grabbing;
+}
+
+.custom-childInd-field {
+    width: 180px;
+}
+
+.list .Polaris-Divider {
+    border-block-start: 1px solid rgb(0, 0, 0, 0.1) !important;
+}
+
+.select-product-text {
+    margin-left: 24px;
+}
