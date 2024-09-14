@@ -109,7 +109,7 @@ const AddProducts = () => {
             items: []
         }])
     }
-    console.log(selectedData, selectedData.length, selectedData[selectedData.length], "check")
+    
     return (
         <Page narrowWidth>
             <Layout>

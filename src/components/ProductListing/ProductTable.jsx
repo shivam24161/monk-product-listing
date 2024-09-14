@@ -15,19 +15,19 @@ import { MyContext } from '../../context/Context';
 import {
     SearchIcon
 } from '@shopify/polaris-icons';
+const columnHeadings = [
+    { title: 'Name', id: 'column-header--size' },
+    {
+        id: 'column-header--price',
+        title: 'Price',
+    },
+    {
+        id: 'column-header--quantity',
+        title: 'Available',
+    },
+];
 
-export default function ProductTable() {
-    const columnHeadings = [
-        { title: 'Name', id: 'column-header--size' },
-        {
-            id: 'column-header--price',
-            title: 'Price',
-        },
-        {
-            id: 'column-header--quantity',
-            title: 'Available',
-        },
-    ];
+const ProductTable = () => {
     const [rows, setRows] = useState([]);
     const [loading, setLoading] = useState(true);
     const [groupedProducts, setGroupedProducts] = useState({});
@@ -270,3 +270,5 @@ export default function ProductTable() {
         </Modal>
     );
 }
+
+export default ProductTable;
