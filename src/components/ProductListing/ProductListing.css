@@ -1,0 +1,14 @@
+.search-product {
+    position: sticky;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.custom-table {
+    max-height: 450px;
+    overflow: auto;
+}
+.product-image {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
