@@ -10,7 +10,6 @@ import {
   Text,
 } from "@shopify/polaris";
 import React, { useContext, useState } from "react";
-import ProductListing from "../ProductListing/ProductListing";
 import { MyContext } from "../../context/Context";
 import { XIcon } from "@shopify/polaris-icons";
 import SortableList, { SortableItem, SortableKnob } from "react-easy-sort";
@@ -18,6 +17,7 @@ import { arrayMoveImmutable } from "array-move";
 import { DragIcon, EditIcon } from "../../assests/Icon";
 import CustomSelect from "../../utility/CustomSelect";
 import CustomInput from "../../utility/CustomInput";
+import ProductTable from "../ProductListing/ProductTable";
 import "./AddProducts.css";
 
 const AddProducts = () => {
@@ -416,7 +416,7 @@ const AddProducts = () => {
               </InlineStack>
             </BlockStack>
           </BlockStack>
-          <ProductListing />
+          <ProductTable />
         </Layout.Section>
       </Layout>
     </Page>

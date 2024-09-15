@@ -1,14 +1,71 @@
 .search-product {
-    position: sticky;
-    z-index: 1;
-    margin-bottom: 10px;
+  position: sticky;
+  z-index: 1;
+  margin-bottom: 10px;
 }
 .custom-table {
-    max-height: 450px;
-    overflow: auto;
+  max-height: 450px;
+  overflow: auto;
 }
 .product-image {
-    height: 30px;
-    width: 30px;
-    object-fit: cover;
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+#custom-add-btn {
+  background-color: rgba(0, 128, 96, 1);
+  border: 2px solid rgba(0, 128, 96, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+  box-shadow: none;
+  border-radius: 4px;
+}
+#custom-cancel-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.Polaris-Modal-Dialog .Polaris-Box > .Polaris-InlineStack {
+  position: relative;
+}
+#custom-selected-btn {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.9);
+  cursor: auto;
+}
+.Polaris-BulkActions__BulkActionsPromotedActionsWrapper
+  > .Polaris-InlineStack::after {
+  content: "Select all products";
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  left: 38px;
+}
+.Polaris-Checkbox__Input:checked + .Polaris-Checkbox__Backdrop,
+.Polaris-Checkbox__Input.Polaris-Checkbox__Input--indeterminate
+  + .Polaris-Checkbox__Backdrop {
+  border-color: unset;
+  box-shadow: none;
+  background: rgba(0, 128, 96, 1);
+}
+.custom-skelton {
+    max-width: 60px;
 }
