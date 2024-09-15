@@ -1,6 +1,52 @@
 /* https://monkcommerce.notion.site/Frontend-Developer-Monk-Commerce-561cc0d3e5d7492abfca16b974f22e22 */
-/* https://i.ibb.co/HhLyXX8/no-image-new.png */
 
 .Polaris-IndexTable__Table thead , .Polaris-IndexTable__BulkActionsWrapper ,.Polaris-IndexTable__StickyTableHeader{
     /* display: none; */
+}
+.custom-btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 4px;
+    padding: 6px 0;
+    border: 2px solid #008060;
+    background-color: #008060;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.custom-input {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 4px;
+    padding: 5px 14px;
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 60px;
+}
+.custom-input.variant ,.custom-popover.variant{
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+.custom-popover.variant {
+    padding-right: 4px;
+}
+.custom-popover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 4px;
+    padding: 5px 2px  5px 14px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    width: 95px;
+    justify-content: space-between;
+}
+.custom-popover-btn {
+    cursor: pointer;
 }
