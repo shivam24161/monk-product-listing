@@ -1,7 +1,7 @@
 .child-item {
     display: flex;
     gap: 12px;
-    margin-left: 50px;
+    justify-content: end;
 }
 
 .child-item .Polaris-ShadowBevel {
@@ -22,4 +22,39 @@
 
 .select-product-text {
     margin-left: 24px;
+}
+
+.custom-btn-add {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 4px;
+    padding: 14px 54px;
+    color: #008060;
+    border: 2px solid #008060;
+    cursor: pointer;
+}
+
+.custom-btn-add:disabled {
+    opacity: 0.2;
+    cursor: not-allowed
+}
+
+.custom-card {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    padding: 5.5px 10px;
+}
+.custom-variant-card {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    padding: 5px 18px;
+    border-radius: 30px;
+    min-width: 250px;
+    max-width: 300px;
+}
+.Polaris-Button--variantTertiary .Polaris-Button__Icon {
+    display: flex;
 }
